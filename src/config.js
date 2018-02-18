@@ -10,7 +10,7 @@ const manifest = {
             origin: ['*']
           },
           production: {
-            origin: ['http://example.com']
+            origin: ['www.*.herokuapp.com']
           }
         },
         payload: {
