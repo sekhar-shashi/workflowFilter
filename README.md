@@ -1,10 +1,14 @@
-# workflowFilter
+# WorkflowFilter
 Its a micro service using Node and HAPiJS to filter JSON request.
 
+Service can be accessed using url [https://powerful-wave-91194.herokuapp.com](https://powerful-wave-91194.herokuapp.com) 
 
-[Solution for/scenerio](https://github.com/Hometrack/codetest)
+Note: it may some time to load the url , since its a freeware version of heroku.
 
-Getting Started
+## Requirement
+Requirement details is available at [https://github.com/Hometrack/codetest] (https://github.com/Hometrack/codetest)
+
+## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## Prerequisites
@@ -32,6 +36,11 @@ npm test
 npm run test:coverage
 ```
 
+# hapi-swagger
+
+hapi-swagger package is used here and it can be used for testing Api endpoints.
+
+More details related to hapi-swagger can be found at [https://github.com/glennjones/hapi-swagger](https://github.com/glennjones/hapi-swagger)
 ## Deployment, Getting Started on Heroku with Node.js
 
 This project is configured to be deployed to heroku and details can be found [here](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
