@@ -5,11 +5,7 @@ const manifest = {
       port: 8000,
       routes: {
         cors: {
-          $filter: 'env',
           $default: {
-            origin: ['*']
-          },
-          production: {
             origin: ['*']
           }
         },
