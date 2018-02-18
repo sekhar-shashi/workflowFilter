@@ -1,3 +1,6 @@
+.env
+.eslintrc
+.vscode
 # Logs
 logs
 *.log
