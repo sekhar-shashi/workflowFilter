@@ -5,9 +5,7 @@ const manifest = {
       port: 8000,
       routes: {
         cors: {
-          $default: {
             origin: ['*']
-          }
         },
         payload: {
           maxBytes: 1048576 * 5 // 5MB
