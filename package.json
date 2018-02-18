@@ -1,0 +1,19 @@
+{
+  "name": "hometrack-hapi",
+  "version": "1.0.0",
+  "description": "MircoService to filter JSON request based on type",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekhar-shashi/workflowFilter.git"
+  },
+  "author": "shashi sekhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sekhar-shashi/workflowFilter/issues"
+  },
+  "homepage": "https://github.com/sekhar-shashi/workflowFilter#readme"
+}
