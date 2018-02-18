@@ -29,8 +29,18 @@ module.exports = [
             '400': {
               description: 'BadRequest'
             },
-            '200': {
-              description: 'OK'
+            '200':
+            {
+              description: 'OK',
+              schema: {
+                type: 'object',
+                properties: {
+                  success: {
+                    type: 'boolean',
+                    description: 'Whether the application record was created or not'
+                  }
+                }
+              }
             }
           }
         }
