@@ -2,7 +2,7 @@
 const manifest = {
   connections: [
     {
-      port: 8000,
+      port: process.env.PORT || 8000,
       routes: {
         cors: {
             origin: ['*']
