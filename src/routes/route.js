@@ -49,5 +49,12 @@ module.exports = [
     handler: function (request, reply) {
       return reply().redirect('/documentation#').permanent().rewritable();  
     }
+  },
+  {
+    method: 'GET',
+    path: '/favicon.ico',
+    handler: function (request, reply) {
+      return reply().redirect('/documentation#').permanent().rewritable();  
+    }
   }
 ];
