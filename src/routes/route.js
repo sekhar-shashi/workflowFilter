@@ -1,10 +1,6 @@
 const { filterHandler } = require('../handlers/filterHandler');
 const { filterJsonValidator } = require('../validation/index');
 
-// failAction: function (request, reply, source, error) {
-//   error.output.payload.message = 'custom';
-//   return reply(error).code(400);
-// }
 module.exports = [
   {
     method: 'POST',
