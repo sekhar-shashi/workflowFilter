@@ -62,7 +62,7 @@ This will add the heroku remote configuration to your local git repository, you 
 git push heroku master
 ```
 
-## This project is Built With: 
-[HapiJS](https://hapijs.com/api/16.2.0) - The web framework used
+## The web framework used: 
+[HapiJS](https://hapijs.com/api/16.2.0)
 ## License
 This project is licensed under the Apache License - see the LICENSE file for details
